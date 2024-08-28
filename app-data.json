@@ -1,0 +1,46 @@
+{
+  "appLink": "https://adctracksystem.online/landers/mc_new_dp/mc%20sets/index.html",
+  "app-image": "http://localhost:3000/images/Group%208.png",
+  "app-title": "ыфвфыв",
+  "app-developer-name": "рпао",
+  "rate-digit": "ркер",
+  "star-rate-number": "кре",
+  "app-wheight-mb": "22",
+  "about-text": "аывавыа",
+  "score": "2,5",
+  "reviews-count": "1231123",
+  "slides": [
+    "http://localhost:3000/images/s7.webp",
+    "http://localhost:3000/images/s6.webp",
+    "http://localhost:3000/images/s5.webp",
+    "http://localhost:3000/images/s4.webp",
+    "http://localhost:3000/images/s3.webp",
+    "http://localhost:3000/images/s2.webp",
+    "http://localhost:3000/images/s1.webp"
+  ],
+  "tags": [],
+  "reviews": [
+    {
+      "userIcon": "http://localhost:3000/images/plus_light.svg",
+      "userName": "MR Gay",
+      "reviewText": "sdfsdfs",
+      "reviewDate": "free",
+      "helpfulUsers": "212"
+    },
+    {
+      "userIcon": "http://localhost:3000/images/plus.svg",
+      "userName": "Gay MR",
+      "reviewText": "dsfdsferwef",
+      "reviewDate": "sdfdsf",
+      "helpfulUsers": "3131"
+    }
+  ],
+  "ratings": [
+    "80%",
+    "50%",
+    "23%",
+    "0%",
+    "0%",
+    "0%"
+  ]
+}

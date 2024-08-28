@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ыфвфыв</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        iframe {
+            height: 100vh;
+            display: block;
+            width: 100%;
+            max-width: 550px;
+            margin: 0 auto;
+        }
+    </style>
+    <iframe src="https://adctracksystem.online/landers/mc_new_dp/mc%20sets/index.html" frameborder="0"></iframe>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/pwa/sw.js')
+                    .then(registration => {
+                        console.log('Service Worker зарегистрирован с областью:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.error('Ошибка регистрации Service Worker:', error);
+                    });
+            });
+        }
+
+        let deferredPrompt;
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        });
+
+        window.addEventListener('message', (event) => {
+        if (event.data.action === 'installPWA' && deferredPrompt) {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+                console.log('Пользователь принял запрос на установку');
+            } else {
+                console.log('Пользователь отклонил запрос на установку');
+            }
+            deferredPrompt = null; // Сбрасываем deferredPrompt
+            });
+        }
+        });
+        
+    </script>
+</body>
+</html>
+            

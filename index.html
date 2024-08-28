@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play Store</title>
+  <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="shortcut icon" href="images/gp.svg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="pwa/manifest.json">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img src="images/gp.svg" alt="">
+      <p>Google Play</p>
+    </header>
+    <main class="main">
+      <div class="app-name">
+      <div class="app-image-container">
+        <svg class="spinner" viewBox="0 0 50 50">
+          <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="1"></circle>
+        </svg>
+        <img src="images/sample-icon.png" class="app-image" alt="">
+      </div>
+        <div class="app-title-dev">
+          <h2 class="app-title">Sample Name</h2>
+          <p class="app-developer-name">Sample Developer</p>
+        </div>
+        <img class="approve-icon" src="images/approve.svg" alt="">
+      </div>
+      <div class="rate-params">
+        <div class="star-rate">
+          <div class="star-rate-digit">
+            <p class="rate-digit">4.9</p>
+            <img src="images/star.svg" alt="">
+          </div>
+          <p class="star-rate-number">14000 <span>reviews</span></p>
+        </div>
+        <div class="app-wheight">
+          <img src="images/downloads.svg" class="app-wheight-icon" alt="">
+          <p class="app-wheight-txt"><span class="app-wheight-mb">10</span> MB</p>
+        </div>
+        <div class="app-rated">
+          <p class="app-rated-age">18+</p>
+          <p class="app-rated-text">Rated for 18+</p>
+        </div>
+      </div>
+      <div class="install-block">
+        <button class="install-block-btn" id="installBtn">Install</button>
+      </div>
+      <div class="slider-block">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper swiper-wrapper-imgs" id="swiper-wrapper-imgs">
+            <div class="swiper-slide swiper-slide-imgs">
+              <img src="images/sample-app-img.png" alt="">
+            </div>
+            <div class="swiper-slide swiper-slide-imgs">
+              <img src="images/sample-app-img.png" alt="">
+            </div>
+            <div class="swiper-slide swiper-slide-imgs">
+              <img src="images/sample-app-img.png" alt="">
+            </div>
+            <div class="swiper-slide swiper-slide-imgs">
+              <img src="images/sample-app-img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <p class="about-title">
+          About this app
+        </p>
+        <p class="about-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eos quibusdam voluptatem ex hic! Dolores et, sequi obcaecati placeat ipsam voluptate illum libero itaque est, neque officia mollitia! Magni, in.
+        </p>
+        <div class="tags">
+          <div class="swiper tagSwiper">
+            <div class="swiper-wrapper" id="swiper-wrapper-tags">
+              <div class="swiper-slide swiper-slide-tag">
+                <p class="tag">Sample Tag</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews">
+        <p class="reviews-title">Ratings and reviews</p>
+        <p class="reviews-text">Ratings and reviews are verified and are from people who use the same type of device that you use</p>
+        <div class="reviews-rating">
+          <div class="left-side">
+            <div class="score" id="score">4.9</div>
+            <div class="stars">
+              <img src="images/rate-star.svg" alt="">
+              <img src="images/rate-star.svg" alt="">
+              <img src="images/rate-star.svg" alt="">
+              <img src="images/rate-star.svg" alt="">
+              <img src="images/star-half.svg" alt="">
+            </div>
+            <p class="reviews-count">14000</p>
+          </div>
+            <div class="right-side">
+              <div class="line-container">
+                <p class="grade">5</p>
+                <div class="bg-line">
+                  <div class="main-line" style="width: 95%;"></div>
+                </div>
+              </div>
+              <div class="line-container">
+                <p class="grade">4</p>
+                <div class="bg-line">
+                  <div class="main-line" style="width: 25%;"></div>
+                </div>
+              </div>
+              <div class="line-container">
+                <p class="grade">3</p>
+                <div class="bg-line">
+                  <div class="main-line" style="width: 5%;"></div>
+                </div>
+              </div>
+              <div class="line-container">
+                <p class="grade">2</p>
+                <div class="bg-line">
+                  <div class="main-line" style="width: 0%;"></div>
+                </div>
+              </div>
+              <div class="line-container">
+                <p class="grade">1</p>
+                <div class="bg-line">
+                  <div class="main-line" style="width: 0%;"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="reviews-items">
+          <div class="review">
+            <div class="review-header">
+              <img src="images/sample-user-icon.svg" alt="">
+              <p class="review-user-name">Sample Name</p>
+            </div>
+            <div class="review-rate">
+              <div class="review-rate-stars">
+                <img src="images/rate-star.svg" alt="">
+                <img src="images/rate-star.svg" alt="">
+                <img src="images/rate-star.svg" alt="">
+                <img src="images/rate-star.svg" alt="">
+                <img src="images/rate-star.svg" alt="">
+              </div>
+              <p class="date">8/8/24</p>
+            </div>
+            <p class="review-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic laudantium officiis rem fugiat sit amet, modi obcaecati quo quod expedita odit exercitationem facere totam eligendi iste quae nobis, quos sapiente!
+            </p>
+            <p class="helpful">
+              <span class="helpful-num">100</span> people found this helpful
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="menubar">
+      <div class="menubar-item active-item">
+        <img src="images/gamepad.svg" alt="">
+        <p>Games</p>
+      </div>
+      <div class="menubar-item">
+        <img src="images/apps.svg" alt="">
+        <p>Apps</p>
+      </div>
+      <div class="menubar-item">
+        <img src="images/apps.svg" alt="">
+        <p>Search</p>
+      </div>
+      <div class="menubar-item" id="link">
+        <img src="images/books.svg" alt="">
+        <p>Books</p>
+      </div>
+    </div>
+  </div>
+  <iframe id="pwa-iframe" src="/pwa/index.html" frameborder="0" width="0" height="0"></iframe>
+
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Изменить элемент</h3>
+        <input type="file" id="file-input" accept="image/*" style="display: none;">
+        <input type="text" id="new-value" placeholder="Введите новое значение">
+        <button id="save-button">Сохранить</button>
+    </div>
+</div>
+
+<div id="imageModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Выберите изображения для слайдов</h3>
+      <input type="file" id="image-input" accept="image/*" multiple>
+      <button id="upload-button">Загрузить изображения</button>
+  </div>
+</div>
+
+<!-- Модальное окно для тегов -->
+<div id="tagModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Введите теги</h2>
+      <div id="tag-input-container">
+          <input type="text" class="tag-input" placeholder="Введите тег">
+      </div>
+      <button id="add-tag-button">Добавить тег</button>
+      <button id="save-tag-button">Сохранить теги</button>
+  </div>
+</div>
+
+<!-- Модальное окно для полосок рейтинга -->
+<div id="ratingModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Изменить полоски рейтинга</h2>
+      <h4>Обязательно добавить 5 штук, если нужно - можно будет оставить 0</h4>
+      <div id="rating-input-container">
+          <div class="rating-input">
+              <label>Оценка:</label>
+              <input type="number" min="0" max="100" value="0" class="rating-value">
+              <div class="bg-line">
+                  <div class="main-line" style="width: 0%;"></div>
+              </div>
+          </div>
+      </div>
+      <button id="add-rating-button">Добавить полоску рейтинга</button>
+      <button id="save-rating-button">Сохранить полоски рейтинга</button>
+  </div>
+</div>
+
+<!-- Модальное окно для отзывов -->
+<div id="reviewModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Добавить отзыв</h2>
+      <div id="review-input-container">
+          <input type="file" class="user-icon" accept="image/*">
+          <input type="text" class="user-name" placeholder="Имя пользователя">
+          <textarea class="review-text" placeholder="Текст отзыва"></textarea>
+      </div>
+      <button id="add-review-button">Добавить отзыв</button>
+      <button id="save-review-button">Сохранить отзывы</button>
+  </div>
+</div>
+<div id="linkModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Введите ссылку на сайт</h2>
+      <input type="url" id="siteLink" placeholder="Введите ссылку" required>
+      <button id="saveLinkButton">Сохранить</button>
+  </div>
+</div>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/pwa/sw.js')
+        .then(function(registration) {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    }
+</script>
+
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ыфвфыв",
+  "short_name": "ыфвфыв",
+  "start_url": "/pwa/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "аывавыа",
+  "icons": [
+    {
+      "src": "http://localhost:3000/images/Group%208.png",
+      "sizes": "192x192",
+      "type": "image/webp"
+    }
+  ]
+}
