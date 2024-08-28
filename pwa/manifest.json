@@ -1,7 +1,7 @@
 {
   "name": "ыфвфыв",
   "short_name": "ыфвфыв",
-  "start_url": "/pwa/index.html",
+  "start_url": "/pwa",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
